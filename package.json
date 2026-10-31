@@ -1,0 +1,23 @@
+{
+  "name": "demoqa-playwright-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:webtables": "playwright test tests/webtables.spec.ts",
+    "test:droppable": "playwright test tests/droppable.spec.ts",
+    "test:resizable": "playwright test tests/resizable.spec.ts",
+    "test:student": "playwright test tests/student-registration.spec.ts",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}

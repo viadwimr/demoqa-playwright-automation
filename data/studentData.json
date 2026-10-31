@@ -1,0 +1,18 @@
+{
+  "firstName": "Via",
+  "lastName": "Automation",
+  "email": "via.student.qa@example.com",
+  "gender": "Female",
+  "mobile": "8123456789",
+  "dateOfBirth": {
+    "day": "15",
+    "month": "May",
+    "year": "1998"
+  },
+  "subjects": ["Maths"],
+  "hobbies": ["Reading"],
+  "address": "Jakarta, Indonesia",
+  "state": "NCR",
+  "city": "Delhi",
+  "picture": "data/profile-pic.jpg"
+}
